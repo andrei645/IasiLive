@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4bNeXxPoUMvKShunc+fyYPrGtWoVei2cUjmCPG1PpW8=",
+  "Source": "IasiLiveApi",
+  "BasePath": "_content/IasiLiveApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
