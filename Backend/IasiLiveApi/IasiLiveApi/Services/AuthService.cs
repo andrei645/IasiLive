@@ -43,9 +43,7 @@ public class AuthService(ApplicationDbContext context, IConfiguration configurat
         user.PasswordHash = hashedPassword;
         user.Email = request.Email;
         user.Role = request.Role;
-        user.Firstname = request.Firstname;
-        user.Lastname = request.Lastname;
-
+        user.Name = request.Name;
         
         await context.Users.AddAsync(user);
         await context.SaveChangesAsync();
