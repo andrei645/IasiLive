@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
-
+import { useRouter } from "next/navigation";
 
 export default function LoginForm() {
 
     const [ username, setUsername ] = useState("");
     const [ password, setPassword ] = useState("");
+    const router = useRouter();
 
     const handleLogin = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -31,6 +32,7 @@ export default function LoginForm() {
             const token = await response.text();
             localStorage.setItem("token", token);
             console.log("Token saved:", token);
+            router.push("/events");
         } catch (error) {
             console.error("Error during login:", error);
             alert("Login failed");
