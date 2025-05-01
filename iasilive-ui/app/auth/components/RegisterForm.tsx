@@ -10,7 +10,6 @@ export default function RegisterForm() {
 
     const handleRegister = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        console.log("start register");
 
         try {
             const response = await fetch("http://localhost:5298/api/Auth/register", {

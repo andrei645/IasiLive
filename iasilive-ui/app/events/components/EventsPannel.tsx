@@ -10,9 +10,13 @@ interface Event {
     category: string;
 }
 
-export default function EventsPannel() {
-    const [events, setEvents] = useState([]);
+ interface EventsPannelProps {
+    input: string;
+ }
 
+export default function EventsPannel({input}: EventsPannelProps) {
+    const [events, setEvents] = useState([]);
+    const [clickedCategory, setClickedCategory] = useState("");
 
     useEffect(() => {
         const fetchEvents = async () => {
@@ -43,14 +47,14 @@ export default function EventsPannel() {
             <h1 className="text-3xl font-bold mb-4">Categorii</h1>
             <div className="flex flex-wrap justify-center gap-6 p-6">
                 {categories().map((category, index) => (
-                    <div key={index} className="bg-gray-900 text-white rounded-lg p-4 shadow-md">
+                    <button key={index} className="bg-gray-900 text-white rounded-lg p-4 shadow-md cursor-pointer" onClick={() => setClickedCategory(category)}>
                         {category}
-                    </div>
+                    </button>
                 ))}
             </div>
         <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen">
             <h1 className="text-3xl font-bold mb-4">Evenimente</h1>
-            <EventsList events={events} />
+            <EventsList events={events} input={input} clickedCategory={clickedCategory}/>
         </div>
         </div>);
 }

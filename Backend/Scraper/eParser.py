@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 def extract_events():
-    url = "https://zilesinopti.ro/iasi/restaurante-iasi/"
+    url = "https://quotes.toscrape.com/"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
 
