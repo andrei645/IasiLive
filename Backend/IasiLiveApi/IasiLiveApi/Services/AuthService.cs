@@ -1,7 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using IasiLiveApi.Controllers;
 using IasiLiveApi.Domain;
 using IasiLiveApi.Infrastructure;
 using Microsoft.AspNetCore.Identity;

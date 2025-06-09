@@ -56,7 +56,7 @@ export default function RegisterForm() {
           Email
         </label>
         <input
-          type="text"
+          type="email"
           id="email"
           name="email"
           className="border border-gray-300 rounded-md p-2"
@@ -98,7 +98,7 @@ export default function RegisterForm() {
 
       <button
         type="submit"
-        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-md transition"
+        className="bg-black hover:bg-[#3B1C32] text-white font-semibold py-2 px-4 rounded-md transition cursor-pointer"
       >
         Register
       </button>

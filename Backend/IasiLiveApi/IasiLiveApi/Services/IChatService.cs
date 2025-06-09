@@ -1,6 +1,6 @@
 namespace IasiLiveApi.Services;
 
-public class IChatService
+public interface IChatService
 {
-    
+   public Task<string> GetChatResponseAsync(string message);
 }

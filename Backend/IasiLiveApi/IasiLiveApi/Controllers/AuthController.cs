@@ -44,7 +44,7 @@ namespace IasiLiveApi.Controllers
         }
         
         [Authorize]
-        [HttpGet]
+        [HttpGet("events")]
         public IActionResult AuthenticatedEndpoint()
         {
             return Ok("You are authenticated.");

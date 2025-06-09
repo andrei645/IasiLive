@@ -1,6 +1,7 @@
-namespace IasiLiveApi.Application;
+using IasiLiveApi.Domain;
 
-public class IReviewRepository
+public interface IReviewRepository
 {
-    
+    Task<IEnumerable<Review>> GetReviewsByEventIdAsync(Guid eventId);
+    Task AddReviewAsync(Review review);
 }

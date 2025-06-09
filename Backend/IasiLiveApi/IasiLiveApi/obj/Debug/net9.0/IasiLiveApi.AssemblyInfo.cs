@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IasiLiveApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfd9c5c051da31070e4553215bf6f0add6b4b3a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b097b110600058e31afd6d75126056b9bee182b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IasiLiveApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IasiLiveApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

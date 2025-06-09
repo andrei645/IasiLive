@@ -11,14 +11,28 @@ interface Event {
     category: string;
 }
 
-export default function EventsList({ events, input, clickedCategory }: { events: Event[], input:string, clickedCategory:string }) {
+interface EventsListProps {
+  events: Event[];
+  input?: string;
+  clickedCategory?: string;
+}
 
-    const filteredEvents = 
-        input === "" ? events : events.filter((event:Event) => event.title.toLowerCase().includes(input.toLowerCase()));
+export default function EventsList({ events, input = "", clickedCategory }: EventsListProps) {
+
+    function getFilteredEvents() {
+        if ( clickedCategory && !input ) {
+            return events.filter(ev => ev.category === clickedCategory)
+        } else {
+            return events.filter(ev => ev.title.toLowerCase().includes(input.toLowerCase()))
+        }
+    }
+
+    const filteredEvents = getFilteredEvents();
+
 
     return (
-        <div className="flex flex-wrap justify-center gap-6 p-6">
-            {filteredEvents.map((event:Event) => (
+        <div className="flex gap-6 overflow-x-auto px-6 py-4 scrollbar-thin scrollbar-thumb-primaryLight">
+            {getFilteredEvents().map((event:Event) => (
                 <EventCard {...event}
                     key={event.id}
                     imageUrl='../images/1.png'

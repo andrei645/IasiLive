@@ -329,3 +329,8 @@
 /Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
 /Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/MediatR.dll
+/Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/MediatR.Contracts.dll
+/Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/OpenAI.dll
+/Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/System.ClientModel.dll
+/Users/andrei.panainte/Documents/Licenta/IasiLive/Backend/IasiLiveApi/IasiLiveApi/bin/Debug/net9.0/System.Memory.Data.dll

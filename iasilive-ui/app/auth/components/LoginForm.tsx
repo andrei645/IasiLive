@@ -32,7 +32,7 @@ export default function LoginForm() {
             const token = await response.text();
             localStorage.setItem("token", token);
             console.log("Token saved:", token);
-            router.push("/events");
+            router.push("/auth/events");
         } catch (error) {
             console.error("Error during login:", error);
             alert("Login failed");
@@ -74,7 +74,7 @@ export default function LoginForm() {
 
       <button
         type="submit"
-        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-md transition"
+        className="bg-black hover:bg-[#3B1C32] text-white font-semibold py-2 px-4 rounded-md transition cursor-pointer"
       >
         Login
       </button>

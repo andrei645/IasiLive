@@ -1,0 +1,28 @@
+:root {
+    /* Neutrals & background */
+    --color-bg: #1A1A1D;
+    --color-surface: #3B1C32;
+    --color-foreground: #F8F8F8;
+  
+    /* Primary shades */
+    --color-primary: #6A1E55;
+    --color-primary-light: #A64D79;
+    --color-primary-dark: #4A123C;
+  
+    /* Accent */
+    --color-accent: #A64D79;
+  
+    /* Text */
+    --color-text: #F5F5F5;
+    --color-text-muted: #cccccc;
+  
+    /* UI elements */
+    --color-border: #2a2a2d;
+    --color-shadow: rgba(0, 0, 0, 0.2);
+  
+    /* Feedback */
+    --color-success: #4caf50;
+    --color-error: #f44336;
+    --color-warning: #ff9800;
+  }
+  

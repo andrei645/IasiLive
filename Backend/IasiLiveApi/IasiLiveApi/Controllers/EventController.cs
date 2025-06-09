@@ -11,7 +11,7 @@ namespace IasiLiveApi.Controllers
     {
         private readonly IEventRepository repository;
         private readonly IValidator<Event> validator;
-
+        
         public EventController(IEventRepository repository, IValidator<Event> validator)
         {
             this.repository=repository;
