@@ -49,6 +49,7 @@ builder.Services.AddScoped<IValidator<Event>, EventValidator>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IChatService, ChatService>();
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddHostedService<WebScraperStartupService>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
@@ -62,6 +63,25 @@ builder.Services.AddSwaggerGen(c =>
 });
 builder.Services.AddHttpClient();
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    var now = DateTime.UtcNow;
+
+    var evenimenteExpirate = dbContext.Events
+        .Where(e => e.Date < now)
+        .ToList();
+
+    if (evenimenteExpirate.Any())
+    {
+        dbContext.Events.RemoveRange(evenimenteExpirate);
+        dbContext.SaveChanges();
+    }
+    
+    Console.WriteLine($"[Startup] Au fost șterse {evenimenteExpirate.Count} evenimente expirate.");
+}
 
 app.UseCors("AllowFrontend");
 

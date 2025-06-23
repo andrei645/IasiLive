@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
 import { useRouter } from "next/navigation";
@@ -30,13 +30,13 @@ export default function AuthPage() {
               <ul className="text-sm space-y-2 mb-6">
                 <li>🎯 Acces la platforma</li>
                 <li>📍 Hărți interactive</li>
-                <li>🎯 Experienta personalizata</li>
+                <li>💻 Preview explicativ</li>
               </ul>
               </div>
               <div className="flex flex-col justify-between items-center gap-3">
               <h1 className="text-2xl font-bold text-[#A64D79]">Subscriber</h1>
               <ul className="text-sm space-y-2 mb-6">
-                <li>🎯 Platforma sociala</li>
+                <li>🎯 Recomandari de evenimente</li>
                 <li>⭐ Salvare evenimente favorite</li>
                 <li>💬 Chat AI integrat</li>
               </ul>
@@ -48,14 +48,28 @@ export default function AuthPage() {
             className="bg-[#6A1E55] hover:bg-[#A64D79] text-white font-semibold py-2 px-4 rounded-md transition cursor-pointer"
             onClick={() => router.push("/events")}
           >
-            Explorează platforma
+            Exploreaza platforma
           </button>
         </div>
 
-        {/* Mini-card eveniment */}
+    <div className="bg-[#2B1A27] p-5 rounded-xl shadow-lg mt-8 border border-[#A64D79]/30">
+      <div className="flex items-center justify-between">
+        <div>
+          <h3 className="text-lg font-semibold text-[#F27FA4] mb-1">Esti organizator?</h3>
+          <p className="text-sm text-gray-300">Publica si gestioneaza evenimente pe platforma noastra.</p>
+        </div>
+        <button
+          className="bg-[#6A1E55] hover:bg-[#A64D79] text-white text-sm px-4 py-2 rounded-md font-medium shadow-md transition"
+          onClick={() => router.push("/organizer/login")}
+        >
+          Host Event
+        </button>
+      </div>
+    </div>
+
         <div className="bg-[#3B1C32] p-4 rounded-lg shadow-lg mt-6">
           <h3 className="text-lg font-bold text-[#A64D79]">🎷 Jazz Night</h3>
-          <p className="text-sm text-gray-300">Astăzi, ora 19:00 — Teatrul Național</p>
+          <p className="text-sm text-gray-300">Astazi, ora 19:00 — Teatrul National</p>
         </div>
       </div>
 

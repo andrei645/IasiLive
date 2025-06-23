@@ -1,0 +1,458 @@
+[
+  {
+    "title": "Noaptea de Sânziene @ Auditorium Grădina Botanică „Anastasie Fătu”",
+    "description": "Noaptea de Sânziene la Auditorium Grădina Botanică „Anastasie Fătu”",
+    "location": "IAŞI",
+    "date": "2025-06-23T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Frici @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Frici @ Teatrul Național Vasile Alecsandri Iași. Frici este o piesă care vorbește despre cele mai profunde și mai neașteptate…",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-24T19:30:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Arta de a fi, nu doar de a spune @ Sala Unirii – Cinema Victoria",
+    "description": "Arta de a fi, nu doar de a spune la Sala Unirii - Cinema Victoria",
+    "location": "CINEMA VICTORIA IAȘI – SALA UNIRII",
+    "date": "2025-06-25T19:00:00Z",
+    "category": "CONFERINȚĂ",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Rapsodiile | Alexandru Tomescu @ Palatul Culturii din Iași",
+    "description": "Rapsodiile | Alexandru Tomescu la Palatul Culturii din Iași",
+    "location": "PALATUL CULTURII IAȘI",
+    "date": "2025-06-25T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Memoria apei @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Memoria apei @ Teatrul Național Vasile Alecsandri Iași. \"Senzația mea este ca piesa „Memoria apei” desacralizează mitul maternității pentru a-l…",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-26T18:00:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "The Poetree of Life Editia VII @ Spatiu de terapie Pas-cu-Pas",
+    "description": "The Poetree of Life Editia VII la Spatiu de terapie Pas-cu-Pas",
+    "location": "IAŞI",
+    "date": "2025-06-26T18:30:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Concurs de Catan @ Manifest Pub",
+    "description": "Concurs de Catan la Manifest Pub",
+    "location": "IAŞI",
+    "date": "2025-06-26T20:00:00Z",
+    "category": "SOCIAL",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Pelicula Art Cinema @ Baia Turcească",
+    "description": "Pelicula Art Cinema la Baia Turcească",
+    "location": "IAŞI",
+    "date": "2025-06-27T17:00:00Z",
+    "category": "FILM",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Club de lectură FEMINIST @ Negru Zi – coffee & arts",
+    "description": "Club de lectură FEMINIST la Negru Zi - coffee & arts",
+    "location": "IAŞI",
+    "date": "2025-06-27T18:00:00Z",
+    "category": "LECTURĂ",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Clubul de carte „Cuibul visurilor”@ Biblioteca Academiei Române Iaşi",
+    "description": "Clubul de carte „Cuibul visurilor”la Biblioteca Academiei Române Iaşi",
+    "location": "IAŞI",
+    "date": "2025-06-27T18:00:00Z",
+    "category": "LECTURĂ",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Oameni singuratici @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Oameni singuratici @ Teatrul Național Vasile Alecsandri Iași. Spectacol realizat de Teatrul Național Iași, în coproducție cu FaPt - Fabrica…",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-27T19:00:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Stand-up Comedy @ Helix Pub",
+    "description": "Stand-up Comedy la Helix Pub",
+    "location": "HELIX PUB",
+    "date": "2025-06-27T20:30:00Z",
+    "category": "STAND-UP COMEDY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Latino Sound @ El Barin",
+    "description": "Latino Sound @ El Barin. Dj Tzenu vă invită la o super petrecere latino, în locația cunoscută El Barin, cu…",
+    "location": "EL BARIN",
+    "date": "2025-06-27T22:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Împreună ajutăm lăbuțe ediția a II-a @ Piata Unirii Din Iasi",
+    "description": "Împreună ajutăm lăbuțe ediția a II-a la Piata Unirii Din Iasi",
+    "location": "PIAȚA UNIRII IAȘI",
+    "date": "2025-06-28T11:00:00Z",
+    "category": "TÂRG",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Bairam pe acoperiș @ Palas Iasi",
+    "description": "Bairam pe acoperiș la Palas Iasi",
+    "location": "PALAS MALL IAȘI",
+    "date": "2025-06-28T19:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Tribute Frank Sinatra @ Casa de Cultura a Studentilor Iasi",
+    "description": "Tribute Frank Sinatra la Casa de Cultura a Studentilor Iasi",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-06-28T19:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "√READS Seară de Film: “Unrest” @ FAR coworking",
+    "description": "√READS Seară de Film: \"Unrest\" la FAR coworking",
+    "location": "IAŞI",
+    "date": "2025-06-28T19:00:00Z",
+    "category": "PROIECȚII DE FILM",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Improvizație cu un câine @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Improvizație cu un câine @ Teatrul Național Vasile Alecsandri Iași. Adaptare după „Buzunarul cu pâine” de Matei Vișniec",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-28T19:30:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Retro Party @ El Barin",
+    "description": "Retro Party @ El Barin. MUZICA ANILOR \"80-'90 LA EL BARIN",
+    "location": "EL BARIN",
+    "date": "2025-06-28T21:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Dj Mă-ta si Paul VLJ @ Palatul Culturii",
+    "description": "Dj Mă-ta si Paul VLJ la Palatul Culturii",
+    "location": "PALATUL CULTURII IAȘI",
+    "date": "2025-06-28T21:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Aaron Sevilla @ Nish feat. Nuba",
+    "description": "Aaron Sevilla la Nish feat. Nuba",
+    "location": "IAŞI",
+    "date": "2025-06-28T23:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "AZUR @ Berarium Tankeria Ursus",
+    "description": "AZUR la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-06-29T19:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Concurs de Table @ Retro Cafe",
+    "description": "Concurs de Table la Retro Cafe",
+    "location": "RETRO CAFE",
+    "date": "2025-06-29T19:00:00Z",
+    "category": "SOCIAL",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Venirea @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Venirea la Teatrul Național Vasile Alecsandri Iași",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-29T19:30:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Arcadia @ Teatrul Național Vasile Alecsandri Iași",
+    "description": "Arcadia la Teatrul Național Vasile Alecsandri Iași",
+    "location": "TEATRUL NAȚIONAL „VASILE ALECSANDRI” IAȘI",
+    "date": "2025-06-30T19:00:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Lee burridge @ Palas Mall",
+    "description": "Lee burridge la Palas Mall",
+    "location": "PALAS MALL IAȘI",
+    "date": "2025-07-04T22:00:00Z",
+    "category": "PARTY",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Compact @ Berarium Tankeria Ursus",
+    "description": "Compact la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-07-06T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "The Urs @ Baza Sportivă Ciric",
+    "description": "The Urs la Baza Sportivă Ciric",
+    "location": "IAŞI",
+    "date": "2025-07-08T22:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Concord Iași Open | Simona Halep & Andrei Pavel @ Baza Sportivă Ciric",
+    "description": "Concord Iași Open | Simona Halep & Andrei Pavel la Baza Sportivă Ciric",
+    "location": "IAŞI",
+    "date": "2025-07-09T20:00:00Z",
+    "category": "SPORT",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Meci demonstrativ Simona Halep & Andrei Pavel @ Baza Sportivă Ciric",
+    "description": "Meci demonstrativ Simona Halep & Andrei Pavel la Baza Sportivă Ciric",
+    "location": "IAŞI",
+    "date": "2025-07-09T20:00:00Z",
+    "category": "SPORT",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Urbea Food Fest @ Palas Iasi",
+    "description": "Urbea Food Fest la Palas Iasi",
+    "location": "IAŞI",
+    "date": "2025-07-11T10:00:00Z",
+    "category": "CULINAR",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Radu Almășan @ Berarium Tankeria Ursus",
+    "description": "Radu Almășan la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-07-11T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Direcția 5 @ Baza Sportivă Ciric",
+    "description": "Direcția 5 la Baza Sportivă Ciric",
+    "location": "IAŞI",
+    "date": "2025-07-12T22:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Open WTA 250 @ Baza Sportivă Ciric",
+    "description": "Open WTA 250 la Baza Sportivă Ciric",
+    "location": "IAŞI",
+    "date": "2025-07-14T16:00:00Z",
+    "category": "SPORT",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Fără Zahăr @ Foom by Nemțeana",
+    "description": "Fără Zahăr la Foom by Nemțeana",
+    "location": "FOOM BY NEMȚEANA",
+    "date": "2025-07-17T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Florin Ristei @ Berarium Tankeria Ursus",
+    "description": "Florin Ristei la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-07-18T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Vasile Șeicaru @ Berarium Tankeria Ursus",
+    "description": "Vasile Șeicaru la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-07-27T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Nightsmokers @ Rocknrolla",
+    "description": "Nightsmokers la Rocknrolla",
+    "location": "ROCKNROLLA",
+    "date": "2025-07-27T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "TIFF Unlimited @ Grădina Palas",
+    "description": "TIFF Unlimited la Grădina Palas",
+    "location": "GRĂDINA PUBLICĂ PALAS",
+    "date": "2025-07-28T21:30:00Z",
+    "category": "PROIECȚII DE FILM",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Serile Filmului Romanesc 2025",
+    "description": "Serile Filmului Romanesc 2025",
+    "location": "IAŞI",
+    "date": "2025-08-06T11:00:00Z",
+    "category": "FILM",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Pavel Stratan @ Berarium Tankeria Ursus",
+    "description": "Pavel Stratan la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-08-10T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Ada Milea și Bobo Burlacianu @ Foom by Nemțeana",
+    "description": "Ada Milea și Bobo Burlacianu la Foom by Nemțeana",
+    "location": "FOOM BY NEMȚEANA",
+    "date": "2025-08-21T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Taraful de la Vărbilău @ Berarium Tankeria Ursus",
+    "description": "Taraful de la Vărbilău la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-08-24T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Junsun Dance workshop @ Casa de Cultura a Studentilor Iași",
+    "description": "Junsun Dance workshop la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-08-27T18:00:00Z",
+    "category": "DANS",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "IRIS @ Berarium Tankeria Ursus",
+    "description": "IRIS la Berarium Tankeria Ursus",
+    "location": "IAŞI",
+    "date": "2025-09-07T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Robin and The Backstabbers x AltOrchestra @ Casa de Cultura a Studentilor Iași",
+    "description": "Robin and The Backstabbers x AltOrchestra la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-09-24T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Lacul Lebedelor” (Balet in 4 acte) @ Casa de Cultura a Studentilor Iași",
+    "description": "Lacul Lebedelor\" (Balet in 4 acte) la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-09-28T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Andrieș – Interioare @ Casa de Cultura a Studentilor Iași",
+    "description": "Andrieș - Interioare la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-10-01T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Lacul Lebedelor | European Classical Ballet @ Casa de Cultura a Studentilor Iași",
+    "description": "Lacul Lebedelor | European Classical Ballet la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-10-06T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Horatiu Malaele – Sunt un Orb @ Casa de Cultura a Studentilor Iași",
+    "description": "Horatiu Malaele - Sunt un Orb la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-10-20T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "VenVen Dance Festival",
+    "description": "VenVen Dance Festival",
+    "location": "IAŞI",
+    "date": "2025-10-31T15:00:00Z",
+    "category": "FESTIVAL",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Un amore così grande @ Casa de Cultură a Studenţilor",
+    "description": "Un amore così grande la Casa de Cultură a Studenţilor",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-11-10T19:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Frumoasa și Bestia @ Casa de Cultura a Studentilor Iași",
+    "description": "Frumoasa și Bestia la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-11-12T18:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Sotiile Noastre @ Casa de Cultura a Studentilor Iași",
+    "description": "Sotiile Noastre la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-11-20T19:00:00Z",
+    "category": "TEATRU",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Pinholes, Fluturi pe Asfalt și Nava Mamă @ Underground Pub",
+    "description": "Pinholes, Fluturi pe Asfalt și Nava Mamă la Underground Pub",
+    "location": "UNDERGROUND PUB",
+    "date": "2025-11-21T20:00:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Potcoava de Aur 2025 @ Sala Polivalenta Iasi",
+    "description": "Potcoava de AUR 2025 la Sala Polivalenta Iasi",
+    "location": "SALA POLIVALENTĂ IAȘI",
+    "date": "2025-12-01T18:00:00Z",
+    "category": "SPECTACOLE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  },
+  {
+    "title": "Direcția 5 | Am nevoie de tine @ Casa de Cultura a Studentilor Iași",
+    "description": "Direcția 5 | Am nevoie de tine la Casa de Cultura a Studentilor Iași",
+    "location": "CASA DE CULTURĂ A STUDENȚILOR IAȘI",
+    "date": "2025-03-01T19:30:00Z",
+    "category": "CONCERTE",
+    "imageUrl": "https://via.placeholder.com/600x400"
+  }
+]

@@ -20,9 +20,29 @@ namespace IasiLiveApi.Infrastructure
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<User>().ToTable("users");
-            
-            modelBuilder.Entity<Review>().ToTable("reviews");
+            modelBuilder.Entity<Event>(entity =>
+            {
+                entity.ToTable("events");
+                entity.HasKey(e => e.Id).HasName("pk_events");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("users");
+                entity.HasKey(u => u.Id).HasName("users_pkey");
+            });
+
+            modelBuilder.Entity<Review>(entity =>
+            {
+                entity.ToTable("reviews");
+                entity.HasKey(r => r.Id).HasName("pk_reviews");
+
+                entity.HasOne<Event>()
+                    .WithMany()
+                    .HasForeignKey(r => r.EventId)
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .HasConstraintName("reviews_eventid_fkey");
+            });
         }
 
     }

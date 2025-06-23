@@ -8,6 +8,7 @@ interface Event {
   description: string;
   date: string;
   category: string;
+  imageUrl: string;
 }
 
 export default function Discover() {

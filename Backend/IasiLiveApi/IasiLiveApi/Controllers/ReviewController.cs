@@ -29,7 +29,7 @@ public class ReviewController : ControllerBase
     {
         review.Id = Guid.NewGuid();
         review.CreatedAt = DateTime.UtcNow;
-        review.UserId = new Guid(User.FindFirst(ClaimTypes.Name)?.Value ?? "Anonim");
+        review.Username = User.FindFirst(ClaimTypes.Name)?.Value ?? "Anonim";
 
         await _repository.AddReviewAsync(review);
         return Ok(review);

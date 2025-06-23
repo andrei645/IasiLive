@@ -2,13 +2,19 @@
 import EventsLandingPage from "./components/EventsLandingPage";
 import Image from "next/image";
 import CustomHeader from "../components/CustomHeader";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import floatingImage from "@/public/images/ai_image.png";
 import FAQSection from "../components/FaqSection";
 import MapUI from "../components/MapUI";
+import StudentsEventList from "./components/StudentsEventList";
 
 export default function EventsPage() {
         const [searchQuery, setSearchQuery] = useState("");
+
+        useEffect(() => {
+          localStorage.removeItem("token");
+          localStorage.removeItem("username");
+          }, [])
     
         const handleSearch = (query:string) => {
             setSearchQuery(query);
@@ -101,6 +107,7 @@ export default function EventsPage() {
       <div className="absolute inset-0 bg-[url('/path-to-stripes.svg')] opacity-5 pointer-events-none" />
     </section>
                 <EventsLandingPage />
+                <StudentsEventList />
                 <FAQSection />
                 <section className="bg-gradient-to-br from-[#1A1A1D] via-[#3B1C32] to-[#6A1E55] text-textMain py-20 px-6">
                 <div className="max-w-7xl mx-auto space-y-6 text-center">

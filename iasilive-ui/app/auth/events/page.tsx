@@ -3,9 +3,9 @@ import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import EventsLandingPage from "../../events/components/EventsLandingPage";
 import ChatWidget from "../components/ChatWidget";
-import Favorites from "../components/Favorites"
 import YouMayLike from "@/app/personalisation/components/YouMayLike";
 import Discover from "@/app/personalisation/components/Discover";
+import Favorites from "@/app/personalisation/components/Favorites";
 
 export default function AuthEventsPage() {
   const router = useRouter();
@@ -21,10 +21,12 @@ export default function AuthEventsPage() {
     const arrToken = token?.split(".");
     const tokenPayload = arrToken ? JSON.parse(atob(arrToken[1])) : null;
     setGetNameFromToken(tokenPayload["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"]);
+    localStorage.setItem("username", tokenPayload["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"]);
   }, []);
   
   const handleLogout = () => {
     window.localStorage.removeItem("token");
+    window.localStorage.removeItem("username");
     router.push("/auth");
   }
   return (
@@ -37,37 +39,9 @@ export default function AuthEventsPage() {
 
   {/* Account dropdown */}
   <div className="relative inline-block text-left" ref={menuRef}>
-    <button
-      onClick={() => setIsOpen(!isOpen)}
-      className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white text-sm font-medium rounded-md shadow hover:bg-primaryLight transition focus:outline-none"
-    >
-      Cont
-      <svg
-        className="h-4 w-4"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-      </svg>
-    </button>
-
-      {isOpen && (
-        <div className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-          <div className="py-1">
-            <button className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={() => router.push("/personalisation")}>
-              Personalisation
-            </button>
-            <button className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-              Details
-            </button>
-            <button className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" onClick={() => handleLogout()}>
+            <button className="w-full text-left px-4 py-2 text-sm text-white hover:bg-[#6A1E55] rounded-2xl" onClick={() => handleLogout()}>
               LogOut
             </button>
-          </div>
-        </div>
-      )}
       </div>
     </div>
      <section className="bg-bg text-textMain py-24 px-6">
@@ -134,6 +108,7 @@ export default function AuthEventsPage() {
     </div>
   </section>
         <ChatWidget />
+        <Favorites />
         <YouMayLike />
         <Discover />
     </>
