@@ -5,3 +5,5 @@ Techstack :
 - Dotnet
 - PostgreSql
 - Python
+  
+[Black and Purple Gradient Trendy Digital Marketing Plan Presentation.pptx](https://github.com/user-attachments/files/22005279/Black.and.Purple.Gradient.Trendy.Digital.Marketing.Plan.Presentation.pptx)
